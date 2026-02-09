@@ -1,49 +1,35 @@
-# Starlight Starter Kit: Basics
+# Tech Constellation 🌌
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+2026年のモダンWeb技術（Next.js / Supabase / AI駆動開発）を最短ルートで習得するための、体系的な学習ロードマップ・ドキュメントサイトです。
 
-```
-npm create astro@latest -- --template starlight
-```
+## 🌟 プロジェクトの概要
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+このプロジェクトは、断片化された技術情報を「星座（Constellation）」のように繋ぎ合わせ、学習者が迷わずにフルスタック開発の技術を習得できる道標を提供することを目的としています。
 
-## 🚀 Project Structure
+- **厳選されたリソース**: 日本語の優良記事を中心に、現代のベストプラクティスをステップ別に整理。
+- **最新の技術スタック**: Next.js (App Router), shadcn/ui, Supabase (SSR), Vercel などの最新構成に対応。
+- **AI開発最適化**: AIエディタ（Cursor/Windsurf等）を最大限活用するための、Vercel社推奨コーディングルールの導入。
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## 🛠 使用技術
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+- **Framework**: [Astro](https://astro.build/)
+- **Theme**: [Starlight](https://starlight.astro.build/)
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 🚀 ローカルでの開発方法
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+プロジェクトをクローンして、ローカル環境で立ち上げる手順です。
 
-Static assets, like favicons, can be placed in the `public/` directory.
+```bash
+# リポジトリをクローン
+git clone [https://github.com/あなたのユーザー名/tech-constellation.git](https://github.com/あなたのユーザー名/tech-constellation.git)
 
-## 🧞 Commands
+# ディレクトリに移動
+cd tech-constellation
 
-All commands are run from the root of the project, from a terminal:
+# 依存関係のインストール
+npm install
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+# 開発サーバーの起動
+npm run dev
