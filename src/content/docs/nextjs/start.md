@@ -16,22 +16,22 @@ Next.js開発、認証とDBの組み込み、デプロイ方法など、一連�
 * **選定理由**: 2026年標準のshadcn/ui導入が簡潔。「コードの所有」概念が学べる。
 * **どこを読むべき？**: 「shadcn/ui とは」からCLIでの追加手順まで。
 
-### step3. [ステート・フォーム](https://zenn.dev/k_mori/books/24320553af0956/viewer/714dcb)
+### step3. [状態管理](https://zenn.dev/k_mori/books/24320553af0956/viewer/714dcb)
 
 * **選定理由**: 状況に応じたhooksの選定を学べる。
 * **どこを読むべき？**: ユースケースと実装方法
 
-### step4. [API接続](https://zenn.dev/kiwichan101kg/articles/0a51f8e912e4c8#rsc%EF%BC%88react-server-components%EF%BC%89%E3%81%A8%E3%81%AF)
+### step4. [レンダリング方式](https://zenn.dev/kiwichan101kg/articles/0a51f8e912e4c8#rsc%EF%BC%88react-server-components%EF%BC%89%E3%81%A8%E3%81%AF)
 
 * **選定理由**: レンダリング方式の違いと使い分けについて学べる。
 * **どこを読むべき？**: RSC（React Server Components）とは。
 
-### step5. [Supabase Auth](https://depart-inc.com/blog/how-to-supabase-auth/)
+### step5. [Supabase 認証とDB](https://depart-inc.com/blog/how-to-supabase-auth/)
 
-* **選定理由**: 最新の@supabase/ssrを用いた正しい認証とRLSを解説。
+* **選定理由**: 最新の@supabase/ssrを用いた正しい認証とRLSを解説している。
 * **どこを読むべき？**: 認証機能の実装、データセキュリティ。
 
-### step6. [Vercelデプロイ](https://qiita.com/Notta_Engineering/items/1db3a14be8caa9a63ab2)
+### step6. [Vercelのデプロイ手順](https://qiita.com/Notta_Engineering/items/1db3a14be8caa9a63ab2)
 
 * **選定理由**: ホスティングサービスとしての使い方の丁寧な解説。
 * **どこを読むべき？**: デプロイ方法の項目。
