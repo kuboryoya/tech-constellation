@@ -7,7 +7,7 @@ export default defineConfig({
     starlight({
       title: 'Tech Constellation',
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/your-repo' }
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/kuboryoya/tech-constellation' }
       ],
       sidebar: [
         {
