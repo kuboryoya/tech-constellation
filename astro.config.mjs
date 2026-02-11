@@ -13,8 +13,8 @@ export default defineConfig({
         {
           label: 'Next.js 2026',
           items: [
-            // src/content/docs/nextjs/start.md に対応
-            { label: '最短学習ロードマップ', slug: 'nextjs/start' },
+            { label: 'TypeScript学習ロードマップ', slug: 'typescript/start-to-nextjs' },
+            { label: 'Next.js学習ロードマップ', slug: 'nextjs/start' },
           ],
         },
       ],
