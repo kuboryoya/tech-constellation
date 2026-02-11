@@ -57,7 +57,7 @@ description: 0から Next.js + TypeScriptを始めるという視点に立ち、
 	- ユニオン / 交差型
 	- 型推論 / strict モード
 
-### Step3. [tsconfig.jsonの設定](https://qiita.com/crml1206/items/8fbfbecc0b40968bfc42#compileroptions)
+### Step3. [tsconfig.jsonの設定](https://qiita.com/crml1206/items/8fbfbecc0b40968bfc42)
 - **選定理由**
 	- 基本的な設定項目がまとめられている
 - **どこを読むべき？**
